@@ -1,0 +1,5 @@
+<div class="highlight"><pre><code class="haskell"><span class="nf">ghci</span><span class="o">&gt;</span> <span class="kt">:</span><span class="n">m</span> <span class="o">+</span> <span class="kt">Data</span><span class="o">.</span><span class="kt">Char</span> <span class="kt">Data</span><span class="o">.</span><span class="kt">Text</span><span class="o">.</span><span class="kt">Lens</span>
+<span class="nf">ghci</span><span class="o">&gt;</span> <span class="n">allOf</span> <span class="p">(</span><span class="n">folded</span><span class="o">.</span><span class="n">text</span><span class="p">)</span> <span class="n">isLower</span> <span class="p">[</span><span class="s">&quot;hello&quot;</span><span class="o">^.</span><span class="n">packed</span><span class="p">,</span> <span class="s">&quot;goodbye&quot;</span><span class="o">^.</span><span class="n">packed</span><span class="p">]</span>
+<span class="kt">True</span>
+</code></pre>
+</div>

@@ -1,0 +1,5 @@
+<div class="highlight"><pre><code class="haskell"><span class="cm">{-# LANGUAGE TemplateHaskell #-}</span>
+<span class="kr">data</span> <span class="kt">Foo</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">Foo</span> <span class="p">{</span> <span class="n">_bar</span> <span class="ow">::</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">_baz</span> <span class="ow">::</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">_quux</span> <span class="ow">::</span> <span class="n">a</span> <span class="p">}</span>
+<span class="nf">makeLenses</span> <span class="sc">&#39;&#39;</span><span class="kt">Foo</span>
+</code></pre>
+</div>

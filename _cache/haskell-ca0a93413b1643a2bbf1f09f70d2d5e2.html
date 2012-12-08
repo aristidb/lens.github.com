@@ -1,0 +1,14 @@
+<div class="highlight"><pre><code class="haskell"><span class="nf">ghci</span><span class="o">&gt;</span> <span class="kt">Map</span><span class="o">.</span><span class="n">fromList</span> <span class="p">[(</span><span class="s">&quot;hello&quot;</span><span class="p">,</span><span class="s">&quot;there&quot;</span><span class="p">)]</span> <span class="o">&amp;</span> <span class="n">at</span> <span class="s">&quot;hello&quot;</span> <span class="o">.~</span> <span class="kt">Nothing</span>
+
+<span class="kt">There</span> <span class="n">are</span> <span class="n">a</span> <span class="n">large</span> <span class="n">number</span> <span class="kr">of</span> <span class="n">other</span> <span class="n">lens</span> <span class="n">variants</span> <span class="n">provided</span> <span class="n">by</span> <span class="n">the</span> <span class="n">library</span><span class="p">,</span> <span class="kr">in</span> <span class="n">particular</span> <span class="n">a</span> <span class="p">`</span><span class="kt">Traversal</span><span class="p">`</span> <span class="n">generalizes</span> <span class="p">`</span><span class="n">traverse</span><span class="p">`</span> <span class="n">from</span> <span class="p">`</span><span class="kt">Data</span><span class="o">.</span><span class="kt">Traversable</span><span class="p">`</span><span class="o">.</span>
+
+<span class="kt">We&#39;ll</span> <span class="n">come</span> <span class="n">back</span> <span class="n">to</span> <span class="n">those</span> <span class="n">later</span><span class="p">,</span> <span class="n">but</span> <span class="n">continuing</span> <span class="n">with</span> <span class="n">just</span> <span class="n">lenses</span><span class="kt">:</span>
+
+<span class="kt">You</span> <span class="n">can</span> <span class="kr">let</span> <span class="n">the</span> <span class="n">library</span> <span class="n">automatically</span> <span class="n">derive</span> <span class="n">lenses</span> <span class="n">for</span> <span class="n">fields</span> <span class="kr">of</span> <span class="n">your</span> <span class="kr">data</span> <span class="kr">type</span>
+
+<span class="p">```</span><span class="n">haskell</span>
+<span class="cm">{-# LANGUAGE TemplateHaskell #-}</span>
+<span class="kr">data</span> <span class="kt">Foo</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">Foo</span> <span class="p">{</span> <span class="n">_bar</span> <span class="ow">::</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">_baz</span> <span class="ow">::</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">_quux</span> <span class="ow">::</span> <span class="n">a</span> <span class="p">}</span>
+<span class="nf">makeLenses</span> <span class="sc">&#39;&#39;</span><span class="kt">Foo</span>
+</code></pre>
+</div>
