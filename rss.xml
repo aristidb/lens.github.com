@@ -6,48 +6,36 @@
     <atom:link href="http://lens.github.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>The Lens Library</description>
     <language>en-us</language>
-    <pubDate>Sun, 09 Dec 2012 18:23:24 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Dec 2012 18:23:24 -0500</lastBuildDate>
+    <pubDate>Sun, 09 Dec 2012 18:32:26 -0500</pubDate>
+    <lastBuildDate>Sun, 09 Dec 2012 18:32:26 -0500</lastBuildDate>
 
     
     <item>
       <title>On the static nature of traversals</title>
-      
       <link>http://r6.ca/blog/20121209T182914Z.html</link>
-      
       <pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate>
       <author>Edward Kmett (ekmett@gmail.com)</author>
-      
       <guid>http://r6.ca/blog/20121209T182914Z.html</guid>
-      
       <description>&lt;p&gt;Russell O&amp;#39;Connor posted &lt;a href=&quot;http://r6.ca/blog/20121209T182914Z.html&quot;&gt;On the static nature of traversals&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>24 Days of Hackage: lens</title>
-      
       <link>http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html</link>
-      
       <pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate>
       <author>Edward Kmett (ekmett@gmail.com)</author>
-      
       <guid>http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html</guid>
-      
       <description>&lt;p&gt;Oliver Charles posted about lenses in his &lt;a href=&quot;http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html&quot;&gt;24 Days of Hackage&lt;/a&gt; series.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[ANNOUNCE] lens 3.7</title>
-      
       <link>http://lens.github.com/announcements/2012/12/07/announcing-lens-3.7.html</link>
-      
       <pubDate>Fri, 07 Dec 2012 00:00:00 -0500</pubDate>
       <author>Edward Kmett (ekmett@gmail.com)</author>
-      
       <guid>http://lens.github.com/announcements/2012/12/07/announcing-lens-3.7</guid>
-      
       <description>		&lt;div&gt;Greetings!&lt;/div&gt;&lt;span id=&quot;goog_892676398&quot;&gt;&lt;/span&gt;&lt;span id=&quot;goog_892676399&quot;&gt;&lt;/span&gt;&lt;a href=&quot;/&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;&lt;/a&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;I am happy to announce the release of version 3.7 of the &lt;font face=&quot;courier new, monospace&quot;&gt;lens&lt;/font&gt; package, which provides &amp;quot;Lenses, Folds, and Traversals&amp;quot; for working with arbitrary data types.&lt;div&gt;
 &lt;br&gt;&lt;/div&gt;&lt;div&gt;In its simplest form, a lens is a getter/setter pair, that can be composed and reasoned about with common sense laws that you can also derive from the Functor and Traversable laws you already know or even derive by reasoning in terms of comonad coalgebras for the even more theoretically inclined.&lt;/div&gt;
 &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The &lt;font face=&quot;courier new, monospace&quot;&gt;lens&lt;/font&gt; package provides lenses along with a surprisingly powerful set of generalizations and specializations of this idea, in a manner that subsumes the notion of a &amp;quot;semantic editor combinator&amp;quot;, allowing you to enrich them with the ability to read back from the targets. In the form taken by the lenses in this package, lenses are empowered to safely change the types of the fields that they edit in a manner that not only can you still reason about, but where the changes in types helps you to reason about what they can or cannot do.&lt;/div&gt;
