@@ -3,7 +3,7 @@
   <title>The Lens Library</title>
   <link href="http://lens.github.com/"/>
   <link type="application/atom+xml" rel="self" href="http://lens.github.com/atom.xml"/>
-  <updated>2012-12-09T18:32:26-05:00</updated>
+  <updated>2012-12-09T19:27:40-05:00</updated>
   <id>http://lens.github..com/</id>
   <author>
     <name>Edward Kmett</name>
@@ -12,7 +12,7 @@
 
   
   <entry>
-    <id>http://lens.github.com/announcements/2012/12/09/finitary-traversals</id>
+    <id>http://lens.github.com/theory/2012/12/09/finitary-traversals</id>
     <link type="text/html" rel="alternate" href="http://r6.ca/blog/20121209T182914Z.html"/>
     <title>On the static nature of traversals</title>
     <published>2012-12-09T00:00:00-05:00</published>
@@ -21,12 +21,11 @@
       <name>Edward Kmett</name>
       <uri>http://lens.github.com/</uri>
     </author>
-    <content type="html">&lt;p&gt;Russell O&amp;#39;Connor posted &lt;a href=&quot;http://r6.ca/blog/20121209T182914Z.html&quot;&gt;On the static nature of traversals&lt;/a&gt;.&lt;/p&gt;
-</content>
+    <content type="html"></content>
   </entry>
   
   <entry>
-    <id>http://lens.github.com/announcements/2012/12/09/24-days-of-hackage</id>
+    <id>http://lens.github.com/tutorial/2012/12/09/24-days-of-hackage</id>
     <link type="text/html" rel="alternate" href="http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html"/>
     <title>24 Days of Hackage: lens</title>
     <published>2012-12-09T00:00:00-05:00</published>
@@ -35,13 +34,12 @@
       <name>Edward Kmett</name>
       <uri>http://lens.github.com/</uri>
     </author>
-    <content type="html">&lt;p&gt;Oliver Charles posted about lenses in his &lt;a href=&quot;http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html&quot;&gt;24 Days of Hackage&lt;/a&gt; series.&lt;/p&gt;
-</content>
+    <content type="html"></content>
   </entry>
   
   <entry>
     <id>http://lens.github.com/announcements/2012/12/07/announcing-lens-3.7</id>
-    <link type="text/html" rel="alternate" href="http://lens.github.com/announcements/2012/12/07/announcing-lens-3.7.html"/>
+    <link type="text/html" rel="alternate" href="http://haskell.1045720.n5.nabble.com/ANNNOUNCE-lens-3-7-released-td5721968.html"/>
     <title>[ANNOUNCE] lens 3.7</title>
     <published>2012-12-07T00:00:00-05:00</published>
     <updated>2012-12-07T00:00:00-05:00</updated>
@@ -72,6 +70,111 @@
 &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* If you have any questions or comments, please feel free to contact me by email, github, or IRC.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Edward&lt;/div&gt;
 
 </content>
+  </entry>
+  
+  <entry>
+    <id>http://lens.github.com/tutorial/2012/11/21/getting-started-with-lenses</id>
+    <link type="text/html" rel="alternate" href="http://newartisans.com/2012/11/getting-started-with-lenses/"/>
+    <title>Getting Started with Lenses</title>
+    <published>2012-11-21T00:00:00-05:00</published>
+    <updated>2012-11-21T00:00:00-05:00</updated>
+    <author>
+      <name>Edward Kmett</name>
+      <uri>http://lens.github.com/</uri>
+    </author>
+    <content type="html"></content>
+  </entry>
+  
+  <entry>
+    <id>http://lens.github.com/announcement/2012/11/20/ny-haskell</id>
+    <link type="text/html" rel="alternate" href="http://haskell.1045720.n5.nabble.com/ANN-NY-Haskell-presents-Edward-Kmett-on-Lenses-Folds-and-Traversals-Wed-December-12-td5720745.html"/>
+    <title>ANN: NY Haskell presents Edward Kmett on Lenses, Folds, and Traversals -- Wed., December 12</title>
+    <published>2012-11-20T00:00:00-05:00</published>
+    <updated>2012-11-20T00:00:00-05:00</updated>
+    <author>
+      <name>Edward Kmett</name>
+      <uri>http://lens.github.com/</uri>
+    </author>
+    <content type="html">The first NY Haskell Users Group meetup was a great success -- with
+&lt;br/&gt;roughly sixty attendees and conversations that stretched far too late
+&lt;br/&gt;for a weekday night. Video and slides are available for both the
+&lt;br/&gt;Practical Data Processing and Cloud Haskell talks:
+&lt;br/&gt;&lt;br/&gt;Video: &lt;a href=&quot;http://vimeo.com/53906049&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://vimeo.com/53906049&lt;/a&gt;&lt;br/&gt;Slides on Practical Data Processing:
+&lt;br/&gt;&lt;a href=&quot;http://gbaz.github.com/slides/PracticalData-11-2012.pdf&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://gbaz.github.com/slides/PracticalData-11-2012.pdf&lt;/a&gt;&lt;br/&gt;Slides on Cloud Haskell: &lt;a href=&quot;http://gbaz.github.com/slides/cloud-11-2012.html&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://gbaz.github.com/slides/cloud-11-2012.html&lt;/a&gt;&lt;br/&gt;Source for Cloud Haskell:
+&lt;br/&gt;&lt;a href=&quot;https://github.com/gbaz/slides/blob/gh-pages/cloud-11-2012.lhs&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;https://github.com/gbaz/slides/blob/gh-pages/cloud-11-2012.lhs&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;We expect our next meetup will be equally exciting, at a bare minimum.
+&lt;br/&gt;We're actively seeking cool talks and presentations. If you're not a
+&lt;br/&gt;New York local, but may be passing through or are in the tri-state
+&lt;br/&gt;area or thereabouts, and would like to present some code or research
+&lt;br/&gt;with even tangentially real-world implications to an informed and
+&lt;br/&gt;appreciated audience, please do get in touch :-)
+&lt;br/&gt;&lt;br/&gt;Also, there will be a NY tech holiday party on December 11th, which we
+&lt;br/&gt;are organizing along with other NY technology and PL groups. Details
+&lt;br/&gt;are available at the on the meetup site:
+&lt;br/&gt;&lt;a href=&quot;http://www.meetup.com/NY-Haskell/&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://www.meetup.com/NY-Haskell/&lt;/a&gt;. Finally, at some point, we will
+&lt;br/&gt;probably cease to spam -cafe with announcements of all our events, so
+&lt;br/&gt;even if you can't make it to the next few ones, registering at the
+&lt;br/&gt;meetup site is the best way to stay on top of what we will have
+&lt;br/&gt;planned.
+&lt;br/&gt;&lt;br/&gt;- - - -
+&lt;br/&gt;&lt;br/&gt;Lenses, Folds, and Traversals
+&lt;br/&gt;presented by Edward Kmett
+&lt;br/&gt;&lt;br/&gt;Wednesday, December 12, 2012
+&lt;br/&gt;7:00 PM To 9:00 PM
+&lt;br/&gt;&lt;br/&gt;Pivotal Labs, 841 Broadway New York, NY
+&lt;br/&gt;(8th Floor)
+&lt;br/&gt;&lt;br/&gt;RSVP: &lt;a href=&quot;http://www.meetup.com/NY-Haskell/&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://www.meetup.com/NY-Haskell/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Edward Kmett will introduce his lens library, which provides a highly
+&lt;br/&gt;composable toolbox for accessing and modifying multiple parts of data
+&lt;br/&gt;structures.
+&lt;br/&gt;&lt;br/&gt;From simple beginnings, starting with building blocks such as fmap and
+&lt;br/&gt;(.), we will build up combinators suitable for working with a wide
+&lt;br/&gt;array of data structures. These generalize the notions you already
+&lt;br/&gt;know how to use into a form that is easier to compose, and
+&lt;br/&gt;simultaneously allow them to be used for monomorphic containers such
+&lt;br/&gt;as Data.Text. All without compromising on your ability to reason about
+&lt;br/&gt;them using laws!
+&lt;br/&gt;&lt;br/&gt;Once we've built up some foundations, we'll do a bit of a deep dive,
+&lt;br/&gt;exploring consequences of this design. We will discuss the efficient
+&lt;br/&gt;generic programming programming framework exported by lens, and
+&lt;br/&gt;type-safe Traversal-based zippers.
+&lt;br/&gt;&lt;br/&gt;Familiarity with the Applicative and Traversable classes from the
+&lt;br/&gt;Haskell base libraries will be helpful (links provided below), but a
+&lt;br/&gt;basic understanding of the concepts will be introduced we go along.
+&lt;br/&gt;Attendees should expect to be gobsmacked with a newfound appreciation
+&lt;br/&gt;for the power of a little (or a lot of) abstraction.
+&lt;br/&gt;&lt;br/&gt;Useful (but not mandatory) references:
+&lt;br/&gt;&lt;br/&gt;The lens library and documentation: &lt;a href=&quot;http://hackage.haskell.org/package/lens&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://hackage.haskell.org/package/lens&lt;/a&gt;&lt;br/&gt;A previous, more introductory talk on how to use the lenses Edward
+&lt;br/&gt;Kmett wrote for the scalaz in the Scala programming language:
+&lt;br/&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=efv0SQNde5Q&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;https://www.youtube.com/watch?v=efv0SQNde5Q&lt;/a&gt;&lt;br/&gt;The original Applicative paper:
+&lt;br/&gt;&lt;a href=&quot;http://www.soi.city.ac.uk/~ross/papers/Applicative.pdf&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://www.soi.city.ac.uk/~ross/papers/Applicative.pdf&lt;/a&gt;&lt;br/&gt;Lots of information on Traversable:
+&lt;br/&gt;&lt;a href=&quot;http://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf&lt;/a&gt;&lt;br/&gt;A write-up of this talk, as presented at the Bay Area Haskell Users
+&lt;br/&gt;Group: &lt;a href=&quot;http://google-opensource.blogspot.com/2012/10/lenses-folds-and-traversals-haskell.html&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;http://google-opensource.blogspot.com/2012/10/lenses-folds-and-traversals-haskell.html&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://lens.github.com/theory/2012/06/24/mirrored-lenses</id>
+    <link type="text/html" rel="alternate" href="http://comonad.com/reader/2012/mirrored-lenses/"/>
+    <title>Mirrored Lenses</title>
+    <published>2012-06-24T00:00:00-04:00</published>
+    <updated>2012-06-24T00:00:00-04:00</updated>
+    <author>
+      <name>Edward Kmett</name>
+      <uri>http://lens.github.com/</uri>
+    </author>
+    <content type="html"></content>
+  </entry>
+  
+  <entry>
+    <id>http://lens.github.com/theory/2012/06/23/polymorphic-update-with-van-laarhoven-lenses</id>
+    <link type="text/html" rel="alternate" href="http://r6.ca/blog/20120623T104901Z.html"/>
+    <title>Polymorphic update with van Laarhoven lenses</title>
+    <published>2012-06-23T00:00:00-04:00</published>
+    <updated>2012-06-23T00:00:00-04:00</updated>
+    <author>
+      <name>Edward Kmett</name>
+      <uri>http://lens.github.com/</uri>
+    </author>
+    <content type="html"></content>
   </entry>
   
 </feed>
