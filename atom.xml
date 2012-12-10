@@ -3,7 +3,7 @@
   <title>The Lens Library</title>
   <link href="http://lens.github.com/"/>
   <link type="application/atom+xml" rel="self" href="http://lens.github.com/atom.xml"/>
-  <updated>2012-12-09T19:27:40-05:00</updated>
+  <updated>2012-12-09T19:32:04-05:00</updated>
   <id>http://lens.github..com/</id>
   <author>
     <name>Edward Kmett</name>
@@ -18,7 +18,7 @@
     <published>2012-12-09T00:00:00-05:00</published>
     <updated>2012-12-09T00:00:00-05:00</updated>
     <author>
-      <name>Edward Kmett</name>
+      <name>Russell O'Connor</name>
       <uri>http://lens.github.com/</uri>
     </author>
     <content type="html"></content>
@@ -31,7 +31,7 @@
     <published>2012-12-09T00:00:00-05:00</published>
     <updated>2012-12-09T00:00:00-05:00</updated>
     <author>
-      <name>Edward Kmett</name>
+      <name>Oliver Charles</name>
       <uri>http://lens.github.com/</uri>
     </author>
     <content type="html"></content>
@@ -79,7 +79,7 @@
     <published>2012-11-21T00:00:00-05:00</published>
     <updated>2012-11-21T00:00:00-05:00</updated>
     <author>
-      <name>Edward Kmett</name>
+      <name>John Wiegley</name>
       <uri>http://lens.github.com/</uri>
     </author>
     <content type="html"></content>
@@ -92,7 +92,7 @@
     <published>2012-11-20T00:00:00-05:00</published>
     <updated>2012-11-20T00:00:00-05:00</updated>
     <author>
-      <name>Edward Kmett</name>
+      <name>Gershom Bazerman</name>
       <uri>http://lens.github.com/</uri>
     </author>
     <content type="html">The first NY Haskell Users Group meetup was a great success -- with
@@ -171,7 +171,7 @@
     <published>2012-06-23T00:00:00-04:00</published>
     <updated>2012-06-23T00:00:00-04:00</updated>
     <author>
-      <name>Edward Kmett</name>
+      <name>Russell O'Connor</name>
       <uri>http://lens.github.com/</uri>
     </author>
     <content type="html"></content>

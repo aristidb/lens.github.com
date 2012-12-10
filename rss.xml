@@ -6,15 +6,15 @@
     <atom:link href="http://lens.github.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>The Lens Library</description>
     <language>en-us</language>
-    <pubDate>Sun, 09 Dec 2012 19:27:40 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Dec 2012 19:27:40 -0500</lastBuildDate>
+    <pubDate>Sun, 09 Dec 2012 19:32:04 -0500</pubDate>
+    <lastBuildDate>Sun, 09 Dec 2012 19:32:04 -0500</lastBuildDate>
 
     
     <item>
       <title>On the static nature of traversals</title>
       <link>http://r6.ca/blog/20121209T182914Z.html</link>
       <pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Russell O'Connor</author>
       <guid>http://r6.ca/blog/20121209T182914Z.html</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
       <title>24 Days of Hackage: lens</title>
       <link>http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html</link>
       <pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Oliver Charles</author>
       <guid>http://ocharles.org.uk/blog/posts/2012-12-09-24-days-of-hackage-lens.html</guid>
       <description></description>
     </item>
@@ -32,7 +32,7 @@
       <title>[ANNOUNCE] lens 3.7</title>
       <link>http://haskell.1045720.n5.nabble.com/ANNNOUNCE-lens-3-7-released-td5721968.html</link>
       <pubDate>Fri, 07 Dec 2012 00:00:00 -0500</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Edward Kmett</author>
       <guid>http://haskell.1045720.n5.nabble.com/ANNNOUNCE-lens-3-7-released-td5721968.html</guid>
       <description>		&lt;div&gt;Greetings!&lt;/div&gt;&lt;span id=&quot;goog_892676398&quot;&gt;&lt;/span&gt;&lt;span id=&quot;goog_892676399&quot;&gt;&lt;/span&gt;&lt;a href=&quot;/&quot; target=&quot;_top&quot; rel=&quot;nofollow&quot; link=&quot;external&quot;&gt;&lt;/a&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;I am happy to announce the release of version 3.7 of the &lt;font face=&quot;courier new, monospace&quot;&gt;lens&lt;/font&gt; package, which provides &amp;quot;Lenses, Folds, and Traversals&amp;quot; for working with arbitrary data types.&lt;div&gt;
 &lt;br&gt;&lt;/div&gt;&lt;div&gt;In its simplest form, a lens is a getter/setter pair, that can be composed and reasoned about with common sense laws that you can also derive from the Functor and Traversable laws you already know or even derive by reasoning in terms of comonad coalgebras for the even more theoretically inclined.&lt;/div&gt;
@@ -63,7 +63,7 @@
       <title>Getting Started with Lenses</title>
       <link>http://newartisans.com/2012/11/getting-started-with-lenses/</link>
       <pubDate>Wed, 21 Nov 2012 00:00:00 -0500</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>John Wiegley</author>
       <guid>http://newartisans.com/2012/11/getting-started-with-lenses/</guid>
       <description></description>
     </item>
@@ -72,7 +72,7 @@
       <title>ANN: NY Haskell presents Edward Kmett on Lenses, Folds, and Traversals -- Wed., December 12</title>
       <link>http://haskell.1045720.n5.nabble.com/ANN-NY-Haskell-presents-Edward-Kmett-on-Lenses-Folds-and-Traversals-Wed-December-12-td5720745.html</link>
       <pubDate>Tue, 20 Nov 2012 00:00:00 -0500</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Gershom Bazerman</author>
       <guid>http://haskell.1045720.n5.nabble.com/ANN-NY-Haskell-presents-Edward-Kmett-on-Lenses-Folds-and-Traversals-Wed-December-12-td5720745.html</guid>
       <description>The first NY Haskell Users Group meetup was a great success -- with
 &lt;br/&gt;roughly sixty attendees and conversations that stretched far too late
@@ -134,7 +134,7 @@
       <title>Mirrored Lenses</title>
       <link>http://comonad.com/reader/2012/mirrored-lenses/</link>
       <pubDate>Sun, 24 Jun 2012 00:00:00 -0400</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Edward Kmett</author>
       <guid>http://comonad.com/reader/2012/mirrored-lenses/</guid>
       <description></description>
     </item>
@@ -143,7 +143,7 @@
       <title>Polymorphic update with van Laarhoven lenses</title>
       <link>http://r6.ca/blog/20120623T104901Z.html</link>
       <pubDate>Sat, 23 Jun 2012 00:00:00 -0400</pubDate>
-      <author>Edward Kmett (ekmett@gmail.com)</author>
+      <author>Russell O'Connor</author>
       <guid>http://r6.ca/blog/20120623T104901Z.html</guid>
       <description></description>
     </item>
